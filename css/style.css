@@ -3394,6 +3394,10 @@ a.logo:hover{
 .work-img{
     position: relative;
     overflow: hidden;
+    max-width:285px;
+    max-height:375px;
+    width: auto;
+    height: auto;
 }
 .work-img img{
     width: 100%;
