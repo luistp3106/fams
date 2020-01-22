@@ -4129,7 +4129,7 @@ a.logo:hover{
     font-size: 14px;   
 }
 .footer a{
-    color: #888;
+    color: #235789;
     text-decoration: none;
     
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
@@ -4139,7 +4139,7 @@ a.logo:hover{
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 .footer a:hover{
-    color: #111;
+    color: #235789;
      text-decoration: underline;
 }
 .footer-copy{
@@ -4149,7 +4149,7 @@ a.logo:hover{
 }
 .footer-made{
     font-size: 13px;
-    color: #999;
+    color: #235789;
 }
 
 
@@ -4164,7 +4164,7 @@ a.logo:hover{
     margin: 0 6px;
     text-align: center;
     display: inline-block;
-    color: #111;
+    color: #235789;
     
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
@@ -4186,7 +4186,7 @@ a.logo:hover{
     position: absolute;
     top: 0;
     right: 0;
-    border: 1px solid #111;
+    border: 1px solid #235789;
     
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
