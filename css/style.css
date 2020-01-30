@@ -395,6 +395,7 @@ h1{
 }
 h2{
     font-size: 28px;
+    color: #235789;
 }
 h6{
     font-weight: 700;
@@ -456,6 +457,14 @@ hr.black{
     font-family: "Noto Sans Kufi Arabic", arial, sans-serif;
     text-transform: none;
     letter-spacing: 0;
+}
+
+
+@font-face {font-family: "cola";
+    src: url('../fonts/Believe.ttf'),url('../fonts/Believe.otf'),url('../fonts/Believe.eot');
+}
+.font-t{
+    font-family: "cola";
 }
 .serif{
     font-family: "Times New Roman", Times, serif;
@@ -644,7 +653,7 @@ a.btn-mod:hover,
 a.btn-mod:focus{
     font-weight: 400;
     color: rgba(255,255,255, .85);
-      background: #83e8ba      ;
+      background: #ffc857     ;
     text-decoration: none;
     outline: none;
     border-color: transparent;    
@@ -721,13 +730,13 @@ a.btn-mod:focus{
 }
 
 .btn-mod.btn-w{
-      color: #111;
-      background: rgba(255,255,255, .8);
+      color: #235789;
+      background: rgba(255,255,255, 1)
 }
 .btn-mod.btn-w:hover,
 .btn-mod.btn-w:focus{
-      color: #111;
-      background: #fff;
+      color: #fff;
+      background: #235789;
 }
 
 .btn-mod.btn-w-color{
@@ -2445,6 +2454,9 @@ a.logo:hover{
 .bg-gray-lighter{
     background-color: #f8f8f8;
 }
+.bg-darkk{
+    background-color: #ffc857;
+}
 .bg-dark,
 .bg-dark-lighter,
 .bg-dark-alfa-30,
@@ -4025,7 +4037,7 @@ a.logo:hover{
 
 .google-map{
     position: relative;
-    background: #111;
+    background: #ffc857
 }
 .google-map > iframe{
     display: block;
@@ -4048,7 +4060,7 @@ a.logo:hover{
     bottom: 0;
     right: 0;
     padding: 0 !important;
-    background: rgba(17,17,17, .93);
+    background: rgba(255,200,87, .7);
     z-index: 2;
     cursor: pointer;
     
@@ -4059,7 +4071,7 @@ a.logo:hover{
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 .map-section:hover{
-    background: rgba(17,17,17, .90);
+    background: rgba(255,200,87, .5);
 }
 .map-toggle{
     width: 200px;
@@ -4077,7 +4089,7 @@ a.logo:hover{
     line-height: 27px;
     margin: 6px auto 25px;
     position: relative;
-    color: #111;
+    color: #235789;
     
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
@@ -4125,13 +4137,13 @@ a.logo:hover{
 
 .map-section.js-active{
     height: 25px;
-    background: rgba(17,17,17, .75);
+    background: rgba(255,200,87 .75);
 }
 .map-section.js-active .mt-text{
     font-size: 14px;
 }
 .map-section.js-active:hover{
-    background: rgba(17,17,17, .85);
+    background: rgba(255,200,87, .85);
 }
 .map-section.js-active .mt-icon{
     opacity: 0;
