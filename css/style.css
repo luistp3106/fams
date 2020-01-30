@@ -616,7 +616,7 @@ a.btn-mod{
     box-sizing: border-box;
     padding: 4px 13px;
       color: #fff;
-      background: rgba(34,34,34, .9);
+      background: #235789;
     border: 2px solid transparent;
     font-size: 14px;
     font-weight: 400;
@@ -644,13 +644,14 @@ a.btn-mod:hover,
 a.btn-mod:focus{
     font-weight: 400;
     color: rgba(255,255,255, .85);
-      background: rgba(0,0,0, .7);
+      background: #83e8ba      ;
     text-decoration: none;
     outline: none;
     border-color: transparent;    
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
 .btn-mod:active{
     cursor: pointer !important;
     outline: none !important;
@@ -1580,8 +1581,7 @@ a.logo:hover{
 }  
 .inner-nav ul li a:hover,
 .inner-nav ul li a.active{
-    color: #235789
-    text-decoration: none;
+    font-weight: bold;
 }
 
 
@@ -1943,10 +1943,10 @@ a.logo:hover{
 }
 
 .main-nav.dark .mn-soc-link{
-    border: 1px solid rgba(255,255,255, .2);
+    border: 1px solid #235789;
 }
 .main-nav.dark .mn-soc-link:hover{
-    border: 1px solid rgba(255,255,255, .3);
+    border: 1px solid #235789;
 }
 
 /*
@@ -2025,9 +2025,9 @@ a.logo:hover{
     line-height: 33px;
     text-align: center;
     font-size: 12px;
-    
+    color: #235789;
     display: inline-block;
-    border: 1px solid rgba(0,0,0, .1);
+    border: 1px solid #235789;
     
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -2040,8 +2040,16 @@ a.logo:hover{
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .mn-soc-link:hover{
-    border: 1px solid rgba(0,0,0, .25);
+    border: 1px solid #235789;
 }
+.footer-social-link a{
+    color: #235789;
+ }
+
+ .footer-social-link ::selection{
+    color: #000000;
+    background-color: #36a367;
+ }
 .main-nav .tooltip{
     font-size: 12x;
     text-transform: none;
@@ -2342,7 +2350,7 @@ a.logo:hover{
     border: 1px solid rgba(255,255,255, .15);
     text-align: center;    
     text-decoration: none;
-    color: #555;
+    color: #235789;
     
     -webkir-border-radius: 50%; 
     -moz-border-radius: 50%; 
