@@ -3392,6 +3392,16 @@ a.logo:hover{
     border: none;
 }
 .work-img{
+    /* Vertical */
+    position: relative;
+    overflow: hidden;
+    max-width:285px;
+    max-height:375px;
+    width: auto;
+    height: auto;
+}
+.work-img2{
+    /* Horizontal */
     position: relative;
     overflow: hidden;
     max-width:285px;
