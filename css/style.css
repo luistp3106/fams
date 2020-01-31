@@ -401,7 +401,7 @@ h6{
     font-weight: 700;
 }
 p{
-    margin: 0 0 2em 0;
+    
 }
 ul, ol{
     margin: 0 0 1.5em 0;
@@ -1738,6 +1738,9 @@ a.logo:hover{
     
     z-index: 100;    
 }
+.mobile-on ul li a.active{
+    font-weight: bold;
+}
 .mobile-on .full-wrapper .desktop-nav{
     padding: 0;
 }
@@ -1781,8 +1784,7 @@ a.logo:hover{
 }
 .mobile-on .desktop-nav ul li a:hover,
 .mobile-on .desktop-nav ul li a.active{
-    background: rgba(255,255,255, .03);
-    color: #ddd;
+    font-weight: bold;
 }
 
 /* Menu sub */

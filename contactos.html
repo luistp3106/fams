@@ -38,7 +38,7 @@
 <!-- Page Wrap -->
 <div class="page" id="top">
 
-    <nav class="main-nav  transparent stick-fixed">
+    <nav class="main-nav   stick-fixed">
         <div class="full-wrapper relative clearfix">
             <!-- Logo ( * your text or image into link tag *) -->
             <div class="nav-logo-wrap local-scroll" style="margin-top: 6px;">
@@ -82,7 +82,7 @@
         <div class="container relative"> 
             
             <div class="align-center">
-                <h3 class="banner-heading font-t mb-40" style="font-size: 10rem;">Contactanos</h3>
+                <h3 class="banner-heading font-t mb-40" style="font-size: 7rem;">Contactos</h3>
                 
             </div>
             
@@ -112,34 +112,34 @@
     <div class="row" style="margin-top: -30px;">
         <div class="col-md-8 col-md-offset-2">
 
-            <div class="contact-form" role="form">
-                <div class="clearfix">
+            <div class="contact-form" role="form" style="margin-top: 70px;">
+                <div class="clearfix" >
 
                     
 
                         <!-- Name -->
                         <div class="form-group">
                             <input type="text" name="Nombre Completo" id="nombre" class="input-md round form-control"
-                                   placeholder="Nombre Completo" pattern=".{3,100}" required style=" width:1000px; margin-left: 137px;" > 
+                                   placeholder="Nombre Completo" pattern=".{3,100}" style=" width: 1000px;"required>
                         </div>
-
+                        <!-- Email -->
                         <!-- Email -->
                         <div class="form-group">
                             <input type="email" name="Correo Electrónico" id="email" class="input-md round form-control"
-                                   placeholder="Correo Electrónico" pattern=".{5,100}" required style=" width:1000px; margin-left: 137px;" >
+                                   placeholder="Correo Electrónico" pattern=".{5,100}" style=" width: 1000px;" required>
                         </div>
 
                     </div>
 
-                    <div class="cf-right-col">
-
-                        <!-- Message -->
-                        
-                                <textarea name="Mensaje" id="mensaje" class="input-md round form-control"
-                                          style="height: 100px; width:1000px; margin-left: -500px;" placeholder="Mensaje"></textarea>
                     
 
-                    </div>
+                        <!-- Message -->
+                        <div class="form-group">
+                                <textarea name="Mensaje" id="mensaje" class="input-md round form-control"
+                                          style="height: 84px;width: 1000px;" placeholder="Mensaje" ></textarea>
+                        </div>
+
+                    
 
                 </div>
             
@@ -148,13 +148,13 @@
         </br>
     </br>
                     <!-- Inform Tip -->
-                    <div class="form-tip pt-20" style="margin-left:137px">
+                    <div class="form-tip pt-20">
                         <i class="fa fa-info-circle"></i>Todos los Campos son Obligatorios
                     </div>
 
                 
 
-                <button name="enviar" class="btn btn-mod btn-large btn-round" style="margin-left:137px" onclick="sendMail()">Enviar Correo</button>
+                <button name="enviar" class="btn btn-mod btn-large btn-round"  onclick="sendMail()">Enviar Correo</button>
 
 
             
