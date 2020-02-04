@@ -3749,6 +3749,14 @@ a.logo:hover{
     text-transform: none;
     color: rgba(255,255,255, 0.9);
 }
+.banner-headi{
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    color: rgba(255,255,255, 0.9);
+}
 
 .banner-decription{
     margin-bottom: 35px;
@@ -4057,6 +4065,19 @@ a.logo:hover{
     display: block;
     width:100%;
     height: 270px;
+    position: relative;
+	background-color: #111 !important;
+    z-index: 1;
+}
+.google-ma{
+    width:117%;
+    position: relative;
+    background: #ffc857
+}
+.google-ma > iframe{
+    display: block;
+    width:100%;
+    height: 385px;
     position: relative;
 	background-color: #111 !important;
     z-index: 1;
